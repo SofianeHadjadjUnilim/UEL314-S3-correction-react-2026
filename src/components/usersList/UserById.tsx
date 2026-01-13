@@ -35,18 +35,12 @@ export default function UserById() {
             <tr>
               <th>Prénom</th>
               <th>Nom</th>
-              {/* DÉSACTIVÉ POUR BACKEND SIMPLIFIÉ - Réactiver si nécessaire */}
-              {/* <th>Login</th> */}
-              {/* <th>Administrateur</th> */}
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>{user.firstname}</td>
               <td>{user.lastname}</td>
-              {/* DÉSACTIVÉ POUR BACKEND SIMPLIFIÉ - Réactiver si nécessaire */}
-              {/* <td>{user.login}</td> */}
-              {/* <td>{user.administrator ? "Oui" : "Non"}</td> */}
             </tr>
           </tbody>
         </table>

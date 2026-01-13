@@ -1,8 +1,5 @@
 import type { User } from "../types/User";
 
-// DÉSACTIVÉ POUR BACKEND SIMPLIFIÉ - Réactiver si nécessaire
-// export type CreateUserPayload = Omit<User, "id"> & { password: string };
-// export type UpdateUserPayload = Partial<User> & { password?: string };
 export type CreateUserPayload = Omit<User, "id">;
 export type UpdateUserPayload = Partial<User>;
 

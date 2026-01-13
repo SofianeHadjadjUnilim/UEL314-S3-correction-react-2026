@@ -71,9 +71,6 @@ function UserList() {
                   <th>ID</th>
                   <th>Prénom</th>
                   <th>Nom</th>
-                  {/* DÉSACTIVÉ POUR BACKEND SIMPLIFIÉ - Réactiver si nécessaire */}
-                  {/* <th>Login</th> */}
-                  {/* <th>Administrateur</th> */}
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -83,9 +80,6 @@ function UserList() {
                     <td>{user.id}</td>
                     <td>{user.firstname}</td>
                     <td>{user.lastname}</td>
-                    {/* DÉSACTIVÉ POUR BACKEND SIMPLIFIÉ - Réactiver si nécessaire */}
-                    {/* <td>{user.login}</td> */}
-                    {/* <td>{user.administrator ? "Oui" : "Non"}</td> */}
                     <td>
                       <button onClick={() => deleteUser(user.id!)}>
                         Supprimer
